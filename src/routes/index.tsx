@@ -1,31 +1,21 @@
 import { createBrowserRouter } from "react-router-dom";
-import { PageLogin } from "../pages/pageLogin";
-import { PageRegister } from "../pages/pageRegister";
-import { PageDashboard } from "../pages/pageDashboard";
+import * as P from "../pages";
 
 export const routes = createBrowserRouter([
   {
     path: "/",
-    element: (
-    <PageLogin/>
-    ),
+    element: <P.PageLogin />,
   },
   {
     path: "/login",
-    element: (
-    <PageLogin/>
-    ),
+    element: <P.PageLogin />,
   },
   {
     path: "/register",
-    element: (
-   <PageRegister/>
-    ),
+    element: <P.PageRegister />,
   },
   {
     path: "/dashboard",
-    element: (
-    <PageDashboard/>
-    ),
+    element: <P.PageDashboard />,
   },
 ]);

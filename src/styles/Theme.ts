@@ -1,6 +1,5 @@
 export const LightTheme = {
   primary: "#FF577F",
-
   primaryFocus: "#FF427F",
   primaryNegative: "#59323F",
 
@@ -12,6 +11,4 @@ export const LightTheme = {
 
   sucess: "#3FE864",
   error: "#E83F5B",
-
-  
 };
