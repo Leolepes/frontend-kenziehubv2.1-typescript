@@ -1,7 +1,7 @@
 {
   "name": "kenzie-hub-v2.1",
   "author": "Developer Léo",
-  "repository": "",
+  "repository": "https://github.com/Leolepes/frontend-kenziehubv2.1-typescript",
   "private": true,
   "version": "0.0.0",
   "type": "module",
