@@ -1,33 +1,31 @@
 import { createBrowserRouter } from "react-router-dom";
-import { LoginPage } from "../pages/pageLogin";
+import { PageLogin } from "../pages/pageLogin";
+import { PageRegister } from "../pages/pageRegister";
+import { PageDashboard } from "../pages/pageDashboard";
 
 export const routes = createBrowserRouter([
   {
     path: "/",
     element: (
-    <LoginPage/>
+    <PageLogin/>
     ),
   },
   {
     path: "/login",
     element: (
-    <LoginPage/>
+    <PageLogin/>
     ),
   },
   {
     path: "/register",
     element: (
-      <div>
-        <h1>Register</h1>
-      </div>
+   <PageRegister/>
     ),
   },
   {
     path: "/dashboard",
     element: (
-      <div>
-        <h1>Dashboard</h1>
-      </div>
+    <PageDashboard/>
     ),
   },
 ]);
